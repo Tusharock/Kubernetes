@@ -8,4 +8,4 @@ RUN unzip neogym.zip
 RUN cp -rvf neogym/* .
 RUN -rf neogym neogym.zip
 CMD  ["/usr/sbin/httpd","-D","FOREGROUND"]
-EXPOSE 80
+EXPOSE 80 22
